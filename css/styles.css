@@ -1,0 +1,128 @@
+/* ======================================================================================== */
+
+/* Estilização geral  */
+
+* {
+  margin: 0px; /*Margem externa das caixas*/
+  padding: 0px; /*Margem interna das caixas*/
+  box-sizing: border-box; /* Ajuste de padding das caixas sem a asoma com a largura*/
+}
+
+header {
+  /* Imagem de fundo */
+  position: fixed;
+  width: 100%;
+  height: 110px;
+  background-image: url(../img/BackgroundImageUniverse-Header.jpg);
+  background-size: 100%;
+  background-position-y: -160px;
+  /* Texto */
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+}
+
+nav {
+  padding-top: 109px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+}
+
+nav ul {
+  background: rgb(173, 109, 173);
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+nav ul li a {
+  padding: 5px;
+  color: #fff;
+  font-family: "Corbel";
+  font-size: 13pt;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+  transition: ease 0.3s;
+  color: black;
+}
+
+main {
+  padding-top: 160px;
+  background-color: rgba(235, 166, 223, 0.555);
+}
+
+footer {
+  background-color: plum;
+  display: flex; /*Permitir com que o rodapé fique com o seu conteúdo flexível*/
+  flex-direction: row; /*Dispor o conteúdo em linha*/
+  /*Ajustar o conteúdo ao centro*/
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+/* ======================================================================================== */
+
+/* Definição das classes */
+.titulos {
+  font-family: "candara";
+  font-size: 50pt;
+}
+
+.subtitulos {
+  font-family: "candara light";
+  font-size: 30pt;
+  text-align: center;
+}
+
+.textos {
+  font-family: "corbel";
+  font-size: 13pt;
+  text-align: justify;
+  margin: 20px;
+}
+
+/* ======================================================================================== */
+
+/* Início da formatação home */
+
+/* Fim da formatação home */
+
+/* ======================================================================================== */
+
+/* Início da formatação história */
+
+#imghistoria {
+  text-align: center;
+}
+
+#imghistoria img {
+  width: 50%;
+  height: auto;
+}
+
+/* Fim da formatação história */
+
+/* ======================================================================================== */
+
+/* Início da formatação signos1 */
+/* Fim da formatação signos1 */
+
+/* ======================================================================================== */
+
+/* Início da formatação dúvidas */
+/* Fim da formatação dúvidas */
+
+/* ======================================================================================== */
+
+/* Início da formatação sobre */
+/* Fim da formatação sobre */
+
+/* ======================================================================================== */
