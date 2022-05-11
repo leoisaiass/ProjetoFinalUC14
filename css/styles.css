@@ -12,25 +12,25 @@ header {
   /* Imagem de fundo */
   position: fixed;
   width: 100%;
-  height: 110px;
-  background-image: url(../img/BackgroundImageUniverse-Header.jpg);
+  height: 150px;
+  background-image: url(../img/BKGIMGHorror3-Header.jpg);
   background-size: 100%;
-  background-position-y: -160px;
+  background-position-y: -350px;
   /* Texto */
-  color: white;
-  padding-top: 15px;
+  color: red;
+  padding-top: 20px;
   text-align: center;
 }
 
 nav {
-  padding-top: 109px;
+  padding-top: 125px;
   text-align: center;
   width: 100%;
   position: fixed;
 }
 
 nav ul {
-  background: rgb(173, 109, 173);
+  background: rgb(158, 157, 157);
 }
 
 nav ul li {
@@ -54,12 +54,14 @@ nav ul li a:hover {
 }
 
 main {
-  padding-top: 160px;
-  background-color: rgba(235, 166, 223, 0.555);
+  padding-top: 180px;
+  background-color: gainsboro;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 footer {
-  background-color: plum;
+  background-color: gray;
   display: flex; /*Permitir com que o rodapé fique com o seu conteúdo flexível*/
   flex-direction: row; /*Dispor o conteúdo em linha*/
   /*Ajustar o conteúdo ao centro*/
@@ -84,7 +86,7 @@ footer {
 
 .textos {
   font-family: "corbel";
-  font-size: 13pt;
+  font-size: 14pt;
   text-align: justify;
   margin: 20px;
 }
@@ -99,13 +101,10 @@ footer {
 
 /* Início da formatação história */
 
-#imghistoria {
-  text-align: center;
-}
-
-#imghistoria img {
-  width: 50%;
-  height: auto;
+.carousel-inner > .carousel-item > img {
+  /* width: 720px; */
+  height: 520px;
+  margin: auto;
 }
 
 /* Fim da formatação história */

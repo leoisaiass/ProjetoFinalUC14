@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Astro</title>
+    <title>Horror Dot Com</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <header>
-    <h1 class="titulos">A História da Astrologia</h1>
+    <h1 class="titulos">História</h1>
   </header>
 
   <nav>
@@ -17,8 +18,8 @@
       <li>
         <a href="index.html">Home</a>
         <a href="historia.html">História</a>
-        <a href="signos1.html">Primeiros signos</a>
-        <a href="signos2.html">Últimos signos</a>
+        <a href="xx.html">Século XX</a>
+        <a href="xxi.html">Século XXI</a>
         <a href="duvidas.html">Dúvidas</a>
         <a href="sobre.html">Sobre</a>
       </li>
@@ -28,23 +29,94 @@
   <main id="mainHistoria">
     <h2 class="subtitulos">A origem</h2>
     <h3 class="textos">
-      No segundo milênio antes de Cristo, sacerdotes babilônicos começaram a
-      estudar o movimento dos astros, acreditando que eram sinais divinos. Foi a
-      origem da astrologia, da astronomia e de todas as ciências que usam a
-      matemática para descrever a natureza.
+      Terror ou horror é um gênero literário, cinematográfico ou musical, que
+      está sempre muito ligado à fantasia e à ficção especulativa, e é criado
+      com intuito de causar medo, aterrorizar. Também pode ser verificado na
+      pintura, no desenho, nos filmes e fotografia. A abstrata ideia de terror
+      ou o ato de transmitir o sentimento de terror ou horror pode ser
+      verificado em todas as formas de arte. Ao decorrer da década de 1990, até
+      os dias de hoje, o gênero também compreende um estilo de desenvolvimento
+      de jogos eletrônicos. <br />
+      O terror na literatura tem suas origens no folclore e em tradições
+      religiosas, focando na morte, na ideia de vida após a morte, no mal, em
+      demônios e no princípio de algo incorporado à pessoa. Estes
+      manifestaram-se em histórias de bruxas, vampiros, lobisomens, fantasmas e
+      pactos com demônios.
     </h3>
 
-    <div id="imghistoria">
-      <img
-        src="https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1478&q=80"
-        alt="Imagem cósmos"
-      />
+    <!-- Início Carrosel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/Bruxa.jpg" class="d-block" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/Vampiro.jpg" class="d-block" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/Lobisomem.jpg" class="d-block" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/FantasmaEDemonio.jpg" class="d-block" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+    <!-- Fim do Carrosel -->
   </main>
 
   <footer></footer>
 
   <body>
-    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
