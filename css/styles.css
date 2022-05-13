@@ -134,6 +134,25 @@ footer div {
 
 /* Início da formatação home */
 
+#home {
+  font-family: "Bahnschrift";
+  font-size: 22pt;
+  text-align: center;
+  font-weight: light;
+  color: rgb(214, 23, 23);
+  margin: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#hell {
+  width: 50%;
+  height: auto;
+  margin-bottom: 30px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
 /* Fim da formatação home */
 
 /* ======================================================================================== */
@@ -151,14 +170,6 @@ footer div {
 /* ======================================================================================== */
 
 /* Início da formatação Século XXI */
-h3 {
-  text-transform: uppercase; /*  converter as letras para maiúsculas */
-  font-size: 20pt;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(107, 46, 24);
-  margin: 30px;
-  padding-left: 3cm;
-}
 
 #linha {
   display: flex;
@@ -195,23 +206,25 @@ h4 {
   font-family: "Corbel";
   font-size: 20pt;
   margin: 10px;
+  color: whitesmoke;
 }
 
 h5 {
   font-family: "Corbel light";
-  /*font-weight: lighter; /*Retirar o negrito*/
+  font-weight: lighter;
   margin: 10px;
+  color: whitesmoke;
 }
 
 h6 {
   font: "Arial Black";
-  color: rgb(71, 71, 71);
+  color: rgb(220, 0, 0);
   font-size: 12pt;
   margin: 10px;
 }
 
 #linha #produto:hover {
-  background-color: lightsalmon;
+  background-color: rgb(164, 87, 87);
   color: rgb(255, 241, 224);
   cursor: pointer;
 }
